@@ -22,7 +22,7 @@ setup(
     zip_safe=False,
     install_requires=[
         "sixieskel.policy",
-        #"sixieskel.buildout",
+        "sixieskel.buildout",
     ],
     entry_points='',
     )
