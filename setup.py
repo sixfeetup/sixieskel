@@ -23,6 +23,7 @@ setup(
     install_requires=[
         "sixieskel.policy",
         "sixieskel.buildout",
+        "sixieskel.theme",
     ],
     entry_points='',
     )
