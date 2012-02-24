@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '5.1.1'
+version = '5.2.0'
 
 setup(
     name='sixieskel',
@@ -21,9 +21,10 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        "sixieskel.policy",
-        "sixieskel.buildout",
-        "sixieskel.theme",
+        "sixieskel.policy>=1.1.0",
+        "sixieskel.buildout>=1.2.0",
+        "sixieskel.theme>=1.1.0",
+        "sixieskel.karl>=1.0",
     ],
     entry_points='',
     )
