@@ -22,10 +22,11 @@ setup(
     zip_safe=False,
     install_requires=[
         "sixieskel.policy>=1.1.2",
-        "sixieskel.buildout>=1.4.0",
+        "sixieskel.buildout>=1.4.1",
         # XXX: The theme isn't templer ready yet
         #"sixieskel.theme>=1.1.0",
         "sixieskel.karl>=1.0.2",
+        "sixieskel.pyramid>=0.1",
     ],
     entry_points='',
     )
