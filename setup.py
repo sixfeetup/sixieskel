@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '5.3.1'
+version = '5.4'
 
 setup(
     name='sixieskel',
@@ -22,11 +22,11 @@ setup(
     zip_safe=False,
     install_requires=[
         "sixieskel.policy>=1.1.2",
-        "sixieskel.buildout>=1.4.1",
+        "sixieskel.buildout>=1.5",
         # XXX: The theme isn't templer ready yet
         #"sixieskel.theme>=1.1.0",
         "sixieskel.karl>=1.0.2",
-        "sixieskel.pyramid>=0.1",
+        "sixieskel.pyramid>=1.0",
     ],
     entry_points='',
     )
