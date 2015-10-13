@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '5.4.5'
+version = '5.4.6'
 
 setup(
     name='sixieskel',
